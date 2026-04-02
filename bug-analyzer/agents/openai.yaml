@@ -1,4 +1,4 @@
 interface:
   display_name: "Bug Analyzer"
   short_description: "Analyze bug root causes and fix quality"
-  default_prompt: "Use $bug-analyzer to first align the user's bug description against logs, code, git commits or diffs, require the tech stack as core input, then trace the validated symptom through code paths into a concrete root-cause report with fix assessment and residual risks."
+  default_prompt: "Use $bug-analyzer to require test steps, a precise bug timestamp, version anchors, logs, and tech stack up front; start from the fix commit's key changes, verify every conclusion against bug-version code or logs, and save the final root-cause report as a clearly named Markdown file."
